@@ -18,4 +18,5 @@ end
 
 group :production do
   gem 'rails_12factor' # Better logging & static assets serving
+  gem 'pg', '~> 0.18.4'
 end
