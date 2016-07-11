@@ -2,7 +2,7 @@ Rails.application.routes.draw do
   root to: 'curiosities#index'
 
   get 'curiosities', to: 'curiosities#index', as: :curiosities
-
+  delete '/curiosity/:id', to: 'curiosities#destroy', as: 'curiosity'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

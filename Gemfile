@@ -1,10 +1,10 @@
 source 'https://rubygems.org'
-ruby '2.3.1'
+ruby '2.3.0'
 gem 'rails' # Rails framework, with specific version
-gem 'puma' # HTTP 1.1 server 
+gem 'puma' # HTTP 1.1 server
 gem 'sqlite3' # database
 gem 'sass-rails' # RoR integration of Sass stylesheet language (CSS)
-gem 'jquery-rails' # jQuery libs (JS) 
+gem 'jquery-rails' # jQuery libs (JS)
 gem 'bootstrap-sass' # Sass-powered version of Bootstrap (CSS / JS libs)
 gem 'font-awesome-sass' # Sass-powered version of font-awesome : iconic font & css toolkit
 gem 'autoprefixer-rails' # parse CSS and add vendor prefixes to CSS rules
