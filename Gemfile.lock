@@ -74,6 +74,7 @@ GEM
     minitest (5.9.0)
     nokogiri (1.6.7.2)
       mini_portile2 (~> 2.0.0.rc2)
+    pg (0.18.4)
     pry (0.10.3)
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
@@ -139,6 +140,8 @@ GEM
     tilt (2.0.4)
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
+    uglifier (3.0.0)
+      execjs (>= 0.3.0, < 3)
 
 PLATFORMS
   ruby
@@ -149,6 +152,7 @@ DEPENDENCIES
   bootstrap-sass
   font-awesome-sass
   jquery-rails
+  pg (~> 0.18.4)
   pry-byebug
   pry-rails
   puma
@@ -157,6 +161,7 @@ DEPENDENCIES
   sass-rails
   spring
   sqlite3
+  uglifier (~> 3.0)
 
 RUBY VERSION
    ruby 2.3.1p112
